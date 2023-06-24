@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parvin Raj R</title>
+
+    <style>
+        body{
+            font-family: Arial, 'Gill Sans', sans-serif;
+            margin: 0;
+            padding: 20px;
+            color: #3c3b3b;
+        }
+
+
+        h1,h2,h3,h4,h5,h6{
+            margin: 0;
+        }
+
+        .header{
+            text-align: center;
+            margin-top:5px ;
+            margin-bottom: 20px;
+        }
+
+        .contact-info{
+            margin-top: 2px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .section{
+            margin-bottom: 15px;
+        }
+
+        .section h2{
+            border-bottom: 2px solid #383636;
+            border-radius: 5px;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+
+        .section ul{
+            list-style-type: circle;
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .section ul li{
+            margin-bottom: 10px;
+
+        }
+
+        .section title{
+            font-weight: bold;
+        }
+
+        .section .subtitle{
+            font-style: italic;
+        }
+
+        .profile-img{
+            display: flex;
+            align-items: center;
+            margin-top: 5px;
+            margin-bottom: 20px;
+        }
+
+        .profile-img img{
+            width: 200px;
+            height: 200px;
+            border:3px solid #bc8b8b;
+            border-radius: 50%;
+        }
+
+        .profile-info{
+            margin-left:25px;
+        }
+
+
+        .social-links{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .social-links a{ 
+            display: inline-block;
+            margin: 0 10px;
+
+        }
+
+        .social-links a img{
+            width: 50px;
+            height: 40px;
+        }
+
+        .highlight{
+            color: rgb(236, 64, 64);
+            font-weight: bold;
+        }
+
+        .italic{
+            font-style: italic;
+        }
+
+        .subheading{
+            color: rgb(228, 154, 102);
+            font-weight:bold ;
+            margin-bottom: 5px;
+        }
+
+
+        .description{
+            margin-bottom: 10px;
+
+        }
+
+        .skills ul{
+            columns: 3;
+            -webkit-columns: 3;
+            -moz-columns: 3;
+        }
+
+        .project{
+            margin-bottom: 20px;
+
+        }
+
+        .project .title{
+            font-weight: bold;
+            color: rgb(145,23,141);
+            margin-bottom: 7px;
+        }
+
+        .project.subtitle{
+            font-style: italic;
+            color: rgb(200, 152, 118);
+        }
+
+        .project .description{
+            margin-bottom: 10px;
+        }
+
+        .achievement{
+            margin-bottom:10px ;
+        }
+
+        .achievement .title{
+
+            font-weight: bold;
+            color: rgb(208, 165, 165);
+        }
+
+        .achievement .description{
+            margin-bottom: 5px;
+        }
+
+
+    </style>
+</head>
+<body>
+    
+
+    <div class="header">
+        <h1>Parvin Raj R</h1>
+        <h3>Software Engineer</h3>
+    </div>
+
+    <div class="profile-img">
+        <img src="phot.jpg" alt="Profile Photo">
+        <div class="profile-info">
+            <h2>Parvin Raj R</h2>
+            <p>Software Engineer</p>
+            <p>EMail: parvinraj.r2021cce@sece.ac.in</p>
+            <p>Phone: (+91) 9363358130</p>
+            <p>Address: Coimbatore, Tamilnadu</p>
+        </div>
+
+    </div>
+
+    <div class="social-links">
+        <a href="https://www.linkedin.com"><img src="link.png" alt="linkedin">Linhedin</a>
+        <a href="https://www.github.com"><img src="git.png" alt="linkedin">Github</a>
+        <a href="https://www.telegram.org"><img src="tele.webp" alt="linkedin">Telegram</a>
+    </div>
+
+    <div class="section">
+        <h2>Summary</h2>
+        <p>As a dedicated and ambitious computer and communication engineering student, I am currently pursuing my degree at [university/college]. With a strong passion for technology and communication systems, I have consistently demonstrated exceptional academic performance and actively sought out opportunities to expand my knowledge through internships, research projects, and involvement in relevant clubs and organizations. I possess excellent problem-solving, programming, and analytical skills, which have been honed through my coursework and hands-on projects. Additionally, I have a solid understanding of network protocols, digital signal processing, and software development, allowing me to contribute effectively in multidisciplinary teams. I am eager to apply my skills and contribute to innovative solutions in the field of computer and communication engineering, while continuously learning and growing in this dynamic industry.</p>
+    </div>
+
+<div class="section">
+    <h2>Education</h2>
+    <ul>
+        <li>
+            <div class="title">
+                Bachelors of Engineering in <span class="highlight">Computer & Communication Engineering</span>
+            </div>
+            <div class="subtitle">
+                Anna University <span class="highlight">Coimbatore</span>
+            </div>
+            <div class="subtitle">Graduated <span class="highlight">May 2025</span></div>
+        </li>
+
+        <ul>
+            <li style="list-style: none;"><i>CGPA</i> : 7.76</li>
+        </ul>
+
+        <li>
+            <div class="title">
+                Higher Secondary Board <span class="highlight">Computer Science</span>
+            </div>
+            <div class="subtitle">
+                Tamilnadu State Board <span class="highlight">Coimbatore</span>
+            </div>
+            <div class="subtitle">Completed <span class="highlight">April 2021</span></div>
+        </li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>Experience</h2>
+    <ul>
+        <li>
+            <div class="title">Web Developer</div>
+            <div class="subtitle">abc</div>
+            <div class="subtitle">july 2023 - present</div>
+            <ul>
+                <li>Maintaining company website</li>
+                <li>Implemented responsive Design</li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>Projects</h2>
+    <div class="project">
+        <div class="title">Personal Portfolio</div>
+        <div class="subtitle">Developed on <span class="highlight">Resume Using HTML</span></div>
+        <div class="description">My first attempt to make Resume using HTML</div>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Certifications</h2>
+    <div class="project">
+       <ul>
+        <li>diploma in MS Office</li>
+        <li>Data Structures and Algorithms</li>
+       </ul>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Language</h2>
+    <ul>
+        <li>English</li>
+        <li>Tamil</li>
+        <li>Telugu</li>
+    </ul>
+</div>
+
+<div class="section">
+<h2>Soft Skills</h2>
+    <ul>
+        <li>Team Management</li>
+        <li>Leadership</li>
+        <li>Problem Solving</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>Technical Skills</h2>
+    <ul>
+        <li>c</li>
+        <li>Java</li>
+        <li>HTML/CSS</li>
+        <li>SQL</li>
+    </ul>
+</div>
+
+</body>
+</html>
